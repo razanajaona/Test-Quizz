@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <title>Quizz</title>
 </head>
+
 <body>
     <!-- sidenav -->
     <nav></nav>
 
     <!-- topbar -->
-    <header>
-        <search>Bare de recherche</search>
+    <header class="spacer">
+        <div>
+            <input type="search" placeholder="barre de recherche"><i class="material-icons">search</i>
+        </div>
+        <span></span>
         <dfn>Finaritra razanajaona</dfn>
-        <figure></figure>
-        <i></i>
+        <figure>
+            <img src="/image/IMG_3818.JPG" alt="">
+        </figure>
+        <i class="material-icons notifications">
+            notifications
+        </i>
     </header>
 
     <!-- main content -->
@@ -24,16 +35,97 @@
         <p>Details du Chapitre</p>
 
         <!-- une <article> par question -->
-        <article> 
-            <h2>Question 2</h2>
-            <p>Quelle est la reponse?</p>
+        <article>
+            <h2><i class="material-icons">
+                    apps
+                </i>Question 2</h2>
+            <textarea name="reponse" id="" cols="40" rows="3">Quelle est la reponse</textarea>
             <ul>
-                <li>Reponse 1</li>
-                <li>Reponse 2</li>
-                <li>Reponse 3</li>
-                <li>Reponse 4</li>
+                <li>
+                    <i class="material-icons">
+                        drag_indicator
+                    </i>
+                    <label for="">A</label>
+                    <input type="text" placeholder="Reponse A">
+                    <input type="checkbox" name="" id="">
+                    <i class="material-icons close">
+                        close
+                    </i>
+                </li>
+                <li>
+
+                    <i class="material-icons">
+                        drag_indicator
+                    </i>
+                    <label for="">B</label>
+                    <input type="text" placeholder="Reponse B">
+                    <input type="checkbox" name="" id="">
+                    <i class="material-icons close">
+                        close
+                    </i>
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <h2>
+                <i class="material-icons">
+                    apps
+                </i>
+                Question 2
+            </h2>
+            <textarea name="reponse" id="" cols="40" rows="3">Quelle est la reponse</textarea>
+            <ul>
+                <li>
+
+                    <i class="material-icons">
+                        drag_indicator
+                    </i>
+                    <label for="">A</label>
+                    <input type="text" placeholder="Reponse A">
+                    <input type="checkbox" name="" id="">
+                    <i class="material-icons close">
+                        close
+                    </i>
+
+                </li>
+                <li>
+
+                    <i class="material-icons">
+                        drag_indicator
+                    </i>
+                    <label for="">B</label>
+                    <input type="text" placeholder="Reponse B">
+                    <input type="checkbox" name="" id="">
+                    <i class="material-icons close">
+                        close
+                    </i>
+                </li>
+                <li>
+                    <i class="material-icons">
+                        drag_indicator
+                    </i>
+                    <label for="">C</label>
+                    <input type="text" placeholder="Reponse C">
+                    <input type="checkbox" name="" id="">
+                    <i class="material-icons close">
+                        close
+                    </i>
+                </li>
+                <li>
+                    <i class="material-icons">
+                        drag_indicator
+                    </i>
+                    <label for="">D</label>
+                    <input type="text" placeholder="Reponse D">
+                    <input type="checkbox" name="" id="">
+                    <i class="material-icons close">
+                        close
+                    </i>
+                </li>
             </ul>
         </article>
     </main>
 </body>
+
 </html>
